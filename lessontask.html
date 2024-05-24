@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task</title>
+  </head>
+
+  <body>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+    </style>
+    <main>
+      <section>
+        <table>
+          <thead>
+            <tr>
+              <th>name</th>
+              <th>subject</th>
+              <th>marks</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="3">mark smith</td>
+              <td>english</td>
+              <td>67</td>
+            </tr>
+            <tr>
+              <td>math</td>
+              <td>82</td>
+            </tr>
+            <tr>
+              <td>science</td>
+              <td>91</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <br /><br />
+      <section>
+        <form>
+          <label for="name">name</label>
+          <input id="name" type="text" placeholder="write your name" />
+          <br /><br />
+          <label for="">gender:</label> <span style="margin-right: 20px"></span>
+          <input name="l" id="male" type="radio" />
+          <label for="male">male</label>
+          <input name="l" id="female" type="radio" />
+          <label for="female">female</label>
+
+          <br /><br />
+          <label for="country">country:</label>
+          <select name="country">
+            <option value="">select an option</option>
+            <option value="Azerbaycan">Azerbaycan</option>
+            <option value="Turkiye">Turkiye</option>
+          </select>
+          <br /><br />
+          <br />
+          <label for="Message"> Message</label> <br />
+          <textarea
+            placeholder="write Message"
+            name="Message"
+            id="Message"
+          ></textarea>
+          <br /><br />
+          <label for="subscribe">subscribe?</label>
+          <input id="subscribe" type="checkbox" />
+          <br /><br />
+          <input type="submit" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
